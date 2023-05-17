@@ -11,16 +11,17 @@ upgrade.addEventListener("click",myfunc)
 
 function cost () {
   button.innerHTML ="<button>upgrade" + costs + "</button>" 
+  window.globalFunction = cost()
 }
 
 
 
-
 function func() {
+  cost()
+  
   console.log(h)
    function func2() {
-  div.innerHTML = "<h1>Your Presse Are " + h + "</h1>"
-     cost()
+  div.innerHTML = "<h1>Your Presse Are " + h + "</h1>" 
   }
   if (h == 10) {
     console.log("oh")

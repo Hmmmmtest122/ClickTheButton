@@ -1,10 +1,7 @@
-function cost () {
-  upgrade.innerHTML ="<button>upgrade" + costs + "</button>" 
-  window.globalFunction = cost()
-}
+//Var Function test not wor hosisting lol why hositing
+//im bor
 
 
-cost()
 //im so bored bab
 var button = document.getElementById("button");
 var div = document.getElementById("presses");
@@ -14,6 +11,13 @@ var h = 1
 var costs = 100
 button.addEventListener("click", func);
 upgrade.addEventListener("click",myfunc)
+cost()
+
+function cost () {
+  upgrade.innerHTML ="<button>upgrade" + costs + "</button>" 
+  window.globalFunction = cost()
+}
+
 
 //Why not working var
 

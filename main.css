@@ -17,4 +17,9 @@ div {
 h1 {
   user-select: none;
 }
+
 p
+
+body {
+  zoom: 0.7;
+}

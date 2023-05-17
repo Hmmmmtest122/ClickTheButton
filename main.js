@@ -10,7 +10,7 @@ button.addEventListener("click", func);
 upgrade.addEventListener("click",myfunc)
 
 function cost () {
-  button.innerHTML("<button>upgrade" + costs + "</button>")
+  button.innerHTML ="<button>upgrade" + costs + "</button>" 
 }
 
 

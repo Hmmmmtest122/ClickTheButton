@@ -22,8 +22,6 @@ function cost () {
 //Why not working var
 
 function func() {
-  cost()
-  
   console.log(h)
    function func2() {
   div.innerHTML = "<h1>Your Presse Are " + h + "</h1>" 

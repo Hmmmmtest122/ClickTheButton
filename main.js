@@ -1,4 +1,4 @@
-
+cost()
 //im so bored bab
 var button = document.getElementById("button");
 var div = document.getElementById("presses");
@@ -10,7 +10,7 @@ button.addEventListener("click", func);
 upgrade.addEventListener("click",myfunc)
 
 function cost () {
-  button.innerHTML ="<button>upgrade" + costs + "</button>" 
+  upgrade.innerHTML ="<button>upgrade" + costs + "</button>" 
   window.globalFunction = cost()
 }
 

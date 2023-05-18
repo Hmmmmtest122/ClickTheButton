@@ -33,9 +33,14 @@ function costup () {
 costup()
 //Why not working var
 function up2() {
-  if (h>=upgrade22costs && h !== 100) {
-    
+  if (h>=upgrade22costs) {
+    setTimeout(costup,1000)
+   h = h + 1 
    h = h - upgrade22costs
+   cost()
+   costup()
+   func()
+   console.log(h)
    h = h * 2 
   } else {
     upgrade2.innerHTML = "You dont have enough moneyyy" 

@@ -46,6 +46,10 @@ function myfunc() {
   if (h>=100 && clicksmulti<=1000) {
     var hh = 50
     clicksmulti = clicksmulti + 50
+    if (h>=costs) {
+      
+      
+    
     h = h - costs
     costs = costs * 2 
     func()
@@ -55,7 +59,10 @@ function myfunc() {
   if (clicksmulti>=200) {
     upgrade.innerHTML = "<h1>Prea multe upgrade-uri</h1>"
     upgrade.removeEventListener("click",myfunc)
-    
+  }
+  } else {
+      upgrade.innerHTML = "<button>You dont have that sum of cashhhhhhhhh</button>" 
+      cost()
   }
   }
 }

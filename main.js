@@ -20,7 +20,8 @@ upgrade2.addEvenListener("click",costup)
 
 function cost () {
   upgrade.innerHTML ="<button>upgrade" + costs + "</button>" 
-  // window.globalFunction = cost()
+    window.globalFunction = cost()
+  //test 1234
 }
 
 function costup () {

@@ -16,7 +16,8 @@ var futureup101 = 100000
 button.addEventListener("click", func);
 upgrade.addEventListener("click",myfunc)
 cost()
-costup()
+u
+
 function cost () {
   upgrade.innerHTML ="<button>upgrade" + costs + "</button>" 
 //  window.globalFunction = cost()
@@ -25,6 +26,7 @@ function cost () {
 function costup () {
   upgrade2.innerHTML = "<button>Upgrade x2 it costs" + upgrade22costs "</button>"
 }
+costup
 //Why not working var
 function up2() {
   if (h>=upgrade22costs && if h !=0) {

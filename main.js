@@ -1,5 +1,5 @@
 //Var Function test not wor hosisting lol why hositing
-//im bor
+//im bor 
 
 //o
 //im so bored bab
@@ -16,17 +16,17 @@ var futureup101 = 100000
 button.addEventListener("click", func);
 upgrade.addEventListener("click",myfunc)
 cost()
-u
+upgrade2.addEvenListener("click",costup)
 
 function cost () {
   upgrade.innerHTML ="<button>upgrade" + costs + "</button>" 
-//  window.globalFunction = cost()
+  // window.globalFunction = cost()
 }
 
 function costup () {
   upgrade2.innerHTML = "<button>Upgrade x2 it costs" + upgrade22costs "</button>"
 }
-costup
+costup()
 //Why not working var
 function up2() {
   if (h>=upgrade22costs && if h !=0) {

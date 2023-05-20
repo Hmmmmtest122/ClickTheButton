@@ -8,6 +8,7 @@ var div = document.getElementById("presses");
 var upgrade = document.getElementById("upgrade")
 var upgrade2 = document.getElementById("upgrade2")
 var clicksmulti = 1
+var upmodifierupgradesupgradee= 1
 var h = 1
 var costs = 100
 var upgrade22costs = 50000
@@ -41,7 +42,7 @@ function up2() {
    costup()
    func()
    console.log(h)
-   h = h * 2 
+   upmodifierupgradespgradee = upmodifierupgradesupgradee * 2
   } else {
     upgrade2.innerHTML = "You dont have enough moneyyy" 
     setTimeout(costup, 1000)
@@ -64,7 +65,7 @@ function func() {
    
   }
   func2()
- h= h +clicksmulti
+ h= h +clicksmulti + upmodifierupgradesupgradee 
 }
 
 

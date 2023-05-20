@@ -8,7 +8,7 @@ var div = document.getElementById("presses");
 var upgrade = document.getElementById("upgrade")
 var upgrade2 = document.getElementById("upgrade2")
 var clicksmulti = 1
-var h = 1
+var h = 50000
 var costs = 100
 var upgrade22costs = 50000
 var futureup101 = 100000
@@ -45,7 +45,9 @@ function up2() {
   } else {
     upgrade2.innerHTML = "You dont have enough moneyyy" 
     setTimeout(costup, 1000)
-    
+   //Trebuie sa fac system da upgrade mai jmeker
+    //lol hekdudjsgshdjs
+
   }
 }
 function func() {
@@ -58,10 +60,7 @@ function func() {
     window.globalFunction = func2()
    
     
-    
   
-    
-   
    
   }
   func2()

@@ -73,13 +73,13 @@ function func() {
     favicontitleicoim.innerHTML = "<title>📲50000 baga upgrade</title>
   } else {    
     if (h<=499800 ) {
-    setTimeout(iconsss,4000)
+    setTimeout(iconssss,4000)
     
     } else {
       if (h>=50020 && h>=50000) {
-        setTimeout(iconsss,4000)
+        setTimeout(iconssss,4000)
         
-      }
+      } 
     }
   }
   }

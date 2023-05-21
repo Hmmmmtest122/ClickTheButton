@@ -68,9 +68,10 @@ function func() {
   }
   func2()
  h= h +clicksmulti + upmodifierupgradesupgradee 
+  
   if (h==50000 && if h>1) {
     favicontitleicoim.innerHTML = "<title>📲50000 baga upgrade</title>
-  else {    
+  } else {    
     
     setTimeout(iconsss,4000)
     

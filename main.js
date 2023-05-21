@@ -7,6 +7,8 @@ var button = document.getElementById("button");
 var div = document.getElementById("presses");
 var upgrade = document.getElementById("upgrade")
 var upgrade2 = document.getElementById("upgrade2")
+var favicontitleicoim = document.getElementById("AB")
+
 var clicksmulti = 1
 var upmodifierupgradesupgradee= 1
 var h = 1
@@ -66,8 +68,18 @@ function func() {
   }
   func2()
  h= h +clicksmulti + upmodifierupgradesupgradee 
-}
+  if (h==50000 && if h>1) {
+    favicontitleicoim.innerHTML = "<title>📲50000 baga upgrade</title>
+  else {
+    setTimeout(iconsss,4000)
+    
+  }
+  }
 
+function iconssss() {
+  
+  favicontitleicoim.innerHTML("<title>Click" + h + "</title>")
+}
 
 function myfunc() {
   if (h>=100 && clicksmulti<=1000) {

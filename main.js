@@ -7,8 +7,6 @@ var button = document.getElementById("button");
 var div = document.getElementById("presses");
 var upgrade = document.getElementById("upgrade")
 var upgrade2 = document.getElementById("upgrade2")
-var favicontitleicoim = document.getElementById("AB")
-
 var clicksmulti = 1
 var upmodifierupgradesupgradee= 1
 var h = 1

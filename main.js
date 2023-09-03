@@ -84,10 +84,7 @@ function func() {
   }
   }
 */
-function iconssss() {
-  
-  favicontitleicoim.innerHTML("<title>Click" + h + "</title>")
-}
+
 
 function myfunc() {
   if (h>=100 && clicksmulti<=1000) {
